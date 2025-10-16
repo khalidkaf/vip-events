@@ -3,7 +3,7 @@ const transports = [
     title: "Célébrations et Evènements",
     slug: "célébrations",
     image:
-      "/celebrations.jpeg",
+      "/celebration.jpeg",
     description:
       "De l'idée à la célébration, une organisation sans fausse note.",
     details: `

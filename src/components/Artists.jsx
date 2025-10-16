@@ -14,7 +14,7 @@ const artists = [
     name: "Développement artistique",
     slug: "developpement-artistique",
     image:
-      "/developpement.jpeg",
+      "/develop.jpeg",
     description: "Votre art mérite une carrière. Ensemble construisons-la.",
   },
 ];

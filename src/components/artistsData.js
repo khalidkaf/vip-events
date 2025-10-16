@@ -22,7 +22,7 @@ Notre service de production musicale est conçu pour transformer votre vision ar
     name: "Direction ou Développement artistique",
     slug: "developpement-artistique",
     image:
-      "/developpement.jpeg",
+      "/develop.jpeg",
     description: "Votre art mérite une carrière. Ensemble construisons-la.",
     details: `<h1 style="color:#888888; font-size:22px; font-weight:bold;">Développement artistique et stratégie de carrière<h1>Créer de la musique est un art, mais la faire entendre est une stratégie. Votre talent est unique, et notre mission est de vous donner les outils pour transformer votre passion en une carrière durable et visible. Au-delà du studio, nous vous accompagnons pour construire les fondations de votre réussite.
 
