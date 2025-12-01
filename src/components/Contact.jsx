@@ -8,7 +8,15 @@ const Contact = () => {
           Contactez-nous
         </h2>
 
-        <form className="bg-white rounded-lg shadow p-8 space-y-6">
+        <form
+          action="https://formsubmit.co/contact@vip-events-inc.com"
+          method="POST"
+          className="bg-white rounded-lg shadow p-8 space-y-6"
+        >
+          {/* Hidden fields for FormSubmit.co */}
+          <input type="hidden" name="_subject" value="Nouveau message via VIP Events" />
+          <input type="hidden" name="_next" value="/" />
+          <input type="text" name="_honey" style={{ display: 'none' }} />
           <div>
             <label className="block text-sm font-medium mb-1" htmlFor="name">
               Nom complet
@@ -16,6 +24,7 @@ const Contact = () => {
             <input
               type="text"
               id="name"
+              name="name"
               className="w-full border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-500"
               placeholder="Votre nom"
               required
@@ -29,6 +38,7 @@ const Contact = () => {
             <input
               type="email"
               id="email"
+              name="email"
               className="w-full border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-500"
               placeholder="votre@email.com"
               required
@@ -41,6 +51,7 @@ const Contact = () => {
             </label>
             <textarea
               id="message"
+              name="message"
               rows="5"
               className="w-full border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-500"
               placeholder="Votre message..."
