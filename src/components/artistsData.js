@@ -3,7 +3,7 @@ const artists = [
     name: "Production musicale et technique",
     slug: "production-musicale",
     image:
-      "https://images.unsplash.com/photo-1548777123-8a25905c4d1e?auto=format&fit=crop&w=800&q=80",
+      "/prodmusicale.jpeg",
     description:
       "Collaborons pour donner à votre musique l'impact qu'elle mérite.",
     details: `

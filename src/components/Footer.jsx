@@ -26,12 +26,12 @@ const Footer = () => {
         >
           Mentions légales
         </Link>
-        <Link
+        {/* <Link
           to="/paiement"
           className="text-sm text-gray-400 hover:text-yellow-500 transition"
         >
           Paiement
-        </Link>
+        </Link> */}
       </div>
     </footer>
   );

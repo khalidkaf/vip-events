@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Navbar from './Navbar'; // importe ta navbar
 
 const MentionsLegales = () => {
@@ -7,7 +8,7 @@ const MentionsLegales = () => {
     style={{ backgroundColor: '#1F7CAB' }} // ✅ couleur personnalisée
     >
       {/* Navbar en haut */}
-      <Navbar />
+      {/* <Navbar /> */}
 
       {/* Contenu principal */}
       <div className="p-8 max-w-4xl mx-auto">
@@ -28,7 +29,7 @@ const MentionsLegales = () => {
           Le contenu de ce site est fourni à titre informatif. Toute reproduction, intégrale ou partielle, est interdite sans autorisation.
         </p>
         <p>
-          Hébergeur : IONOS<br/><br/>
+          Hébergeur : VERCEL<br/><br/>
         </p>
         <p>
           Propriété intellectuelle :<br/>
@@ -229,6 +230,15 @@ const MentionsLegales = () => {
           Après réception de la demande, VIP Events INC s’engage à accuser réception dans un délai de 10 jours ouvrés et à apporter une réponse motivée au Client dans un délai maximum de 30 jours calendaires.<br/>
           Si un accord amiable ne peut être trouvé, le Client pourra saisir le médiateur compétent du tourisme et du voyage ou toute autre instance de règlement amiable des litiges conformément à la législation en vigueur.<br/>
         </p>
+      </div>
+      {/* Bouton Accueil centré sous le contenu */}
+      <div className="max-w-4xl mx-auto p-8 flex justify-center">
+        <Link
+          to="/"
+          className="bg-yellow-500 hover:bg-yellow-600 text-black font-semibold px-6 py-3 rounded-full transition"
+        >
+          Accueil
+        </Link>
       </div>
     </div>
   );
