@@ -16,7 +16,7 @@ const Contact = () => {
             // SERVICE_ID: service_v233y6g
             // TEMPLATE_ID: template_8thr9j9
             // PUBLIC_KEY: QWJp8sNYF_QM7RAvI
-            sendForm('service_9usvi7c', 'template_yvhqwi', form, 'BEL6o47IK9dbu8eFm')
+            sendForm('service_9usvi7c', 'template_yvhqwi7', form, 'BEL6o47IK9dbu8eFm')
               .then((result) => {
                 console.log('EmailJS success', result);
                 alert('Message envoyé !');
